@@ -24,7 +24,7 @@ O objetivo do presente projeto é desenvolver uma página Web no framework Boots
 
 Como funções da plataforma, podemos destacar: 
 
-Página para hospedar e exibir os anúncios; 
+- Página para hospedar e exibir os anúncios; 
 
 Tela de Cadastro de Anúncios; 
 
