@@ -78,7 +78,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                                                           | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01 | O site na sua página inicial deve exibir alguns dos anúncios mais recentes e uma barra superior com links rápidos.               | ALTA  | 
+|RF-01 | O site na sua página inicial deve exibir alguns dos anúncios mais recentes e uma barra superior com links rápidos.               | Alta  | 
 |RF-02 | O site deve possuir uma página de login com usuário e senha                                                                      | Alta  |
 |RF-03 | O site deve apresentar um link para criar e gerenciar os anúncios pós login.                                                     | Alta  |
 |RF-04 | O site deve apresentar, para cada anúncio, informações como um breve descritivo, título, imagem, endereço e dados de contato.    | Alta  |
