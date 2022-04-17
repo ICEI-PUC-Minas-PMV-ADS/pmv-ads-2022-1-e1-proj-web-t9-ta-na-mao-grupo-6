@@ -94,8 +94,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet via GitHub. | Alta | 
+|RNF-02| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.  |  Alta | 
+|RNF-03| O site deve ter alto nível de contraste entre os elementos da tela tornando-o acessível para pessoas daltônicas. | Média |
+|RNF-04| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).  | Alta | 
+|RNF-05| O site deve triar todo conteúdo dos anúncios antes de torná-los disponíveis aos usuários, com fim de manter as diretrizes da plataforma baseada no marco civil da internet garantindo segurança aos usuários.         | Alta | 
+|RNF-06| A plataforma se compromete em não compartilhar históricos de pesquisa, localização em tempo real e dados sensíveis dos usuários.      | Alta | 
+|RNF-07| O site deve possuir interface simplificada tornando-o acessível para pessoas com limitações de velocidade de acesso a internet. Visto que o público alvo está em comunidades periféricas.                  | Alta | 
+|RNF-08| O site ficará online e disponível aos usuários 24 horas por dias os 7 dias da semana. Com manutenções programadas em horários com baixo número de usuários ativos.                   | Alta | 
+|RNF-09| O site irá adotar cores que remetem sensações boas em pessoas com altismo.           | Média | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -118,9 +125,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|RE-01 | O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 24/04/2022|
+|RE-02 | O aplicativo deve se restringir às tecnologias básicas da Web no Front-end (HTML, CSS, Javascript).       |
+|RE-03 | A equipe não pode subcontratar o desenvolvimento do trabalho. 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
