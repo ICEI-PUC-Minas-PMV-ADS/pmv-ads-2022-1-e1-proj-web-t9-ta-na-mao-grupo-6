@@ -17,7 +17,7 @@ Página Web que hospeda anúncios locais, atendendo inicialmente uma comunidade 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteira Ferreira
 
 ## Instruções de utilização
 
