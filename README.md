@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# TÁ NA MÃO
 
-`CURSO`
+ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
-`DISCIPLINA`
+DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END
 
-`SEMESTRE`
+EIXO 1
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Página Web que hospeda anúncios locais, atendendo inicialmente uma comunidade periférica, voltado a microprodutores (microempreendedores) e prestadores de serviço, com acesso por meio de computadores e dispositivos móveis.
 
 ## Integrantes
 
