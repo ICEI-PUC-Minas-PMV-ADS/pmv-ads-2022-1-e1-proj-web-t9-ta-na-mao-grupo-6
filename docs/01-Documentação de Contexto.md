@@ -26,13 +26,13 @@ Como funções da plataforma, podemos destacar:
 
 - Página para hospedar e exibir os anúncios; 
 
-Tela de Cadastro de Anúncios; 
+- Tela de Cadastro de Anúncios; 
 
-Filtros para tipo de anúncio; 
+- Filtros para tipo de anúncio; 
 
-Tela para cadastro de anunciantes; 
+- Tela para cadastro de anunciantes; 
 
-Interface simplificada para cadastro e publicação de anúncios; 
+- Interface simplificada para cadastro e publicação de anúncios; 
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
