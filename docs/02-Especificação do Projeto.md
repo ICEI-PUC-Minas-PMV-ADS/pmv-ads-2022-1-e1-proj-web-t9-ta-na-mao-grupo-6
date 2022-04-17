@@ -8,7 +8,32 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+- Cleyde Fabiana 
+
+ Idade: 39 anos 
+
+Ocupação: Atua como diarista e manicure de maneira autônoma, com valores diversos a depender dos serviços contratados nas suas diárias. 
+
+Motivações: Busca divulgar seus serviços com fim de conseguir trabalhos, assim como adquirir materiais para realizar suas atividades e revende produtos cosméticos ex: Avon, Natura, Jequiti, O boticário, Hinode. 
+
+ - Jhonny Valter  
+
+ Idade: 27 anos 
+
+Ocupação: Motoboy freelancer, atua como entregador de maneira autônoma com valores referentes ao trajeto e tipo de objeto ou pessoas. 
+
+Motivações: Comprar produtos de segunda mão para uso pessoal e em sua residência. 
+
+Quebra de Página
+ 
+
+- João Santana  
+
+ Idade: 43 anos 
+
+Ocupação: Proprietário de uma pequena padaria, vende além da linha de pães comuns, bolos, salgados e doces sob encomenda. 
+
+Motivações: Busca expandir seu negócio para clientes nas adjacências, e potencializar a venda de produtos sob encomenda. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -26,12 +51,17 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                        |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------                       |----------------------------------------|
+|Cleyde Fabiana      | Inserir o anúncio dos seus serviços.                      | Divulgar o seu trabalho.             |
+|Cleyde Fabiana      | Pesquisar anúncios de produtos.                           | Compra de itens com finalidade de realizar seus serviços.|
+|Cleyde Fabiana      | Inserir a divulgação de produtos cosméticos.              | Para realizar a revenda de seus produtos.
+|Jhonny Valter       | Procurar anúncios de equipamentos usados de menor preço.  | Adquirir acessórios de segunda mão com o melhor custo-benefício. 
+|João Santana        | Anunciar e alavancar a venda de seus produtos.            | Expandir público alvo e aumentar seu lucro.   
+|João Santana        | Sondar produtos de seus concorrentes.                     | Comparar e ajustar os preços dos seus produtos em relação ao mercado. 
+|João Santana        | Buscar entregadores que residem na região do comércio.    | Para aumentar o alcance de entregas e dar comodidade com entregas à domicílio.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -46,18 +76,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
+|ID    | Descrição do Requisito                                                                                                           | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
+|RF-01 | O site na sua página inicial deve exibir alguns dos anúncios mais recentes e uma barra superior com links rápidos.               | Alta  | 
+|RF-02 | O site deve possuir uma página de login com usuário e senha                                                                      | Alta  |
+|RF-03 | O site deve apresentar um link para criar e gerenciar os anúncios pós login.                                                     | Alta  |
+|RF-04 | O site deve apresentar, para cada anúncio, informações como um breve descritivo, título, imagem, endereço e dados de contato.    | Alta  |
+|RF-05 | O site deve oferecer opções de filtro para os produtos e serviços prestados, bem como uma barra de busca por palavras-chave.     | Alta  |
+|RF-06 | O site deve apresentar uma dinâmica que mostre detalhes dos anúncios hospedados.                                                 | Média |
+|RF-07 | O site deve apresentar uma opção para avaliar os anúncios.                                                                       | Baixo |
+|RF-08 | O site deve permitir favoritar os anúncios com fim de ranqueá-los e exibir em destaques na página inicial.                       | Baixo |
+|RF-09 | O site deve permitir verificar os anúncios salvos como favoritos.                                                                | Baixo |
+|RF-10 | O site deve exigir leitura e que os usuários estejam de acordo os termos de conduta e uso da plataforma antes de anunciar.       | Alta  |
+|RF-11 | O site deve exibir uma mensagem para que o usuário aceite os termos de sua Política de Privacidade.                              | Alta  |
+|RF-12 | A plataforma oferecerá um campo nos anúncios para texto alternativo (alt texts) onde serão descritas as imagens dos anúncios com detalhes. (Recurso de acessibilidade).                                                                                                                          | Alta  |
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet via GitHub. | Alta | 
+|RNF-02| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada.  |  Alta | 
+|RNF-03| O site deve ter alto nível de contraste entre os elementos da tela tornando-o acessível para pessoas daltônicas. | Média |
+|RNF-04| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).  | Alta | 
+|RNF-05| O site deve triar todo conteúdo dos anúncios antes de torná-los disponíveis aos usuários, com fim de manter as diretrizes da plataforma baseada no marco civil da internet garantindo segurança aos usuários.         | Alta | 
+|RNF-06| A plataforma se compromete em não compartilhar históricos de pesquisa, localização em tempo real e dados sensíveis dos usuários.      | Alta | 
+|RNF-07| O site deve possuir interface simplificada tornando-o acessível para pessoas com limitações de velocidade de acesso a internet. Visto que o público alvo está em comunidades periféricas.                  | Alta | 
+|RNF-08| O site ficará online e disponível aos usuários 24 horas por dias os 7 dias da semana. Com manutenções programadas em horários com baixo número de usuários ativos.                   | Alta | 
+|RNF-09| O site irá adotar cores que remetem sensações boas em pessoas com altismo.           | Média | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -80,9 +125,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|RE-01 | O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 24/04/2022|
+|RE-02 | O aplicativo deve se restringir às tecnologias básicas da Web no Front-end (HTML, CSS, Javascript).       |
+|RE-03 | A equipe não pode subcontratar o desenvolvimento do trabalho. 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
