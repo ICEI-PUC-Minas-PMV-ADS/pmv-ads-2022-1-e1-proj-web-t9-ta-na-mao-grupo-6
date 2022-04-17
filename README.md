@@ -10,10 +10,13 @@ Página Web que hospeda anúncios locais, atendendo inicialmente uma comunidade 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Anna Karolina De Souza Freitas    
+* Arthur Hudson Ferreira Machado           
+* Elder Ferreira Ramos   
+* Felipe Maurício Ribeiro Nascente  
+* Raniel Adriano De Souza Araujo     
+* Vinícius César Andrade Gomes 
+* Wilson Eduardo Sousa Santos
 
 ## Orientador
 
