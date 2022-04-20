@@ -1,1 +1,0 @@
-Cuidado com os arquivos!
