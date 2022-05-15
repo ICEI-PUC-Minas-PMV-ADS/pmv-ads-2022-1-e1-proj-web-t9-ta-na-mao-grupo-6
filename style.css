@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --primary-color: #004AAD;
+    --ligth-color: rgb(255, 255, 255);
+    --dark-color: rgb(0, 0, 0);
+    --segundary-color: #648cc0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar{
+    height: 5.7rem;
+    width: 100vw;
+}
+
+.bg-primary{
+    background-color: var(--primary-color)!important;
+    color: var(--ligth-color);
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+}
+
+.btn-menu{
+    height: 4rem;
+    width: 5rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.trace{
+    border: 0.1rem solid var(--ligth-color);
+    width: 90%;
+    height: 0.3rem;
+}
+
+.btn-menu:hover{
+    border: 0.1rem solid var(--ligth-color);
+}
+.logo-tanamao a img{
+    height: 4.5rem;
+    transition: 0.3s ease-in-out;
+}
+.logo-tanamao a img:hover{
+    height: 5.5rem;
+}
+
+.data-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 5rem;
+    width: 17rem;
+    margin-right: 2rem;
+}
+
+.btn-login{
+    background-color: var(--ligth-color);
+    border: 0.2rem solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    height: 3.5rem;
+    width: 6rem;
+    transition: 0.3s ease-in-out;
+
+}
+
+.btn-login:hover{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.data-blocks a p{
+    font-size: 1.2rem;
+    color: var(--ligth-color);
+    transition: 0.3s ease-in-out;
+}
+
+.data-blocks a p:hover{
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.submenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.submenu-perfil{
+    border: solid;
+    text-align: center;
+    flex-grow: 2;
+    padding: 10px;
+    font-size: 3rem;
+    text-decoration-color: none;
+    
+}
+.submenu-anuncios{
+    border: solid;
+    text-align: center;
+    flex-grow: 2;
+    padding: 10px;
+    font-size: 3rem
+}
+ h6 > p:hover{
+    background-color: #9EC7FF;
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 120px 0px 120px;
+    background-color: rgb(252, 251, 252);
+    font-size: 0%;
+}
+.lista{
+    font-size: 3rem;
+}
+.editar-perfil{
+    color: black;
+    background-color: #9EC7FF;
+    text-align: center;
+    border: solid;
+    margin: 40px 0px 0px 20px;
+    width: 130px;
+    font-size: 2rem;
+    border-color: #9EC7FF;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.foto2{ 
+    margin: -120px 0px 0px 0px;
+    align-self: flex-start;
+    border: solid; 
+    height: 185px;
+    width: 156px;        
+}
+.editar-foto{
+    color: black;
+    background-color: #9EC7FF;
+    text-align: center;
+    border: solid;
+    border-color: #9EC7FF;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin: 40px 0px 0px 30px;
+    height: auto;
+    width: 130px;
+    font-size: 2rem;
+}
+.last{
+    margin: 20px;
+}
