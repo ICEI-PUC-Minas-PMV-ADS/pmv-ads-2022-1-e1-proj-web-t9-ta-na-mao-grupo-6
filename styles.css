@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --primary-color: #004AAD;
+    --ligth-color: rgb(255, 255, 255);
+    --dark-color: rgb(0, 0, 0);
+    --segundary-color: #648cc0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 3rem;
+    font-size: 5rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+h6{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-bar{
+    height: 10rem;
+    width: 100vw;
+}
+
+.bg-primary{
+    background-color: var(--primary-color)!important;
+    color: var(--ligth-color);
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+}
+
+.btn-menu{
+    height: 4rem;
+    width: 5rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.trace{
+    border: 0.1rem solid var(--ligth-color);
+    width: 90%;
+    height: 0.3rem;
+}
+
+.container-fluid{
+    justify-content: center!important;
+    position: relative;
+}
+
+
+.box-menu{
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.data-blocks{
+    position: absolute;
+    top: 7rem;
+    right: 1rem;
+    
+}
+
+
+.btn-menu:hover{
+    border: 0.1rem solid var(--ligth-color);
+}
+
+.logo-tanamao a img {
+    height: 18rem;
+    transition: 0.3s ease-in-out;
+}
+
+.data-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 5rem;
+    width: 17rem;
+    margin-right: 2rem;
+}
+
+.btn-login{
+    background-color: transparent;
+    border: 0.2rem solid var(--ligth-color);
+    color: var(--ligth-color);
+    font-size: 2.0rem;
+    font-weight: bold;
+    height: 4rem;
+    width: 8rem;
+    transition: 0.3s ease-in-out;
+
+}
+
+.btn-login:hover{
+    background-color: transparent;
+}
+
+.data-blocks a p{
+    font-size: 1.3rem;
+    color: var(--ligth-color);
+    transition: 0.3s ease-in-out;
+    margin-top: 0.4rem;
+}
+
+.data-blocks a p:hover{
+    text-decoration: underline;
+}
+
+
+
+#anuncio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 25rem;
+    border: 0.2rem solid var(--primary-color);
+    margin: 3rem;
+    border-radius: 2rem;
+    background-color: rgb(240, 255, 255);
+
+}
+
+.serviços h1 {
+    text-align: center;
+
+}
+
+fieldset {
+    margin: 2rem;
+    height: 25rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+}
+
+#anuncios {
+    width: 22rem;
+    height: 22rem;
+    border: transparent;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.container-description-anuncio{
+    width: 100%;
+    height: 18rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 8rem 1fr;
+}
+
+.dados-anunciante{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.dados-anunciante h6{
+    font-weight: 700;
+}
+
+#description-anunciante{
+    grid-column: 1 / span 2;
+    height: 17rem;
+}
+
+#whatsapp {
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: flex-start;
+}
+
+.botaowhats {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
