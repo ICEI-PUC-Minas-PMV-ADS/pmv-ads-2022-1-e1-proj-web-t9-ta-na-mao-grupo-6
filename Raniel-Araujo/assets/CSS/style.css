@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --primary-color: #004AAD;
+    --ligth-color: rgb(255, 255, 255);
+    --dark-color: rgb(0, 0, 0);
+    --segundary-color: #648cc0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-bar{
+    height: 6rem;
+    width: 100vw;
+}
+
+.bg-primary{
+    background-color: var(--primary-color)!important;
+    color: var(--ligth-color);
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid {
+    justify-content: center !important;
+    position: relative;
+}
+
+
+.box-menu {
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.data-blocks {
+    position: absolute;
+    top: 7rem;
+    right: 1rem;
+
+}
+
+
+.btn-menu{
+    height: 4rem;
+    width: 5rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.trace{
+    border: 0.1rem solid var(--ligth-color);
+    width: 90%;
+    height: 0.3rem;
+}
+
+.btn-menu:hover{
+    border: 0.1rem solid var(--ligth-color);
+}
+.logo-tanamao a img{
+    height: 10rem;
+    transition: 0.3s ease-in-out;
+}
+
+.data-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 5rem;
+    width: 17rem;
+    margin-right: 2rem;
+}
+
+.btn-page-login{
+    background-color: var(--primary-color);
+    border: 0.2rem solid var(--ligth-color);
+    color: var(--ligth-color);
+    font-size: 1.4rem;
+    height: 3.5rem;
+    width: 6rem;
+    transition: 0.3s ease-in-out;
+
+}
+
+.btn-page-login:hover{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.data-blocks a p{
+    font-size: 1.2rem;
+    color: var(--ligth-color);
+    transition: 0.3s ease-in-out;
+}
+
+.data-blocks a p:hover{
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+/*--------------------------------------------------------------*/
+
+.page-default{
+    width: 100vw;
+    height: calc(100vh - 6rem);
+    display: flex;
+    justify-content: center;
+}
+.container-main{
+    width: 50vw;
+    height: calc(100vh - 6rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+}
+
+.box-filter{
+    border: 0.2rem solid var(--primary-color);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box-filter h3{
+    color: var(--primary-color);
+    text-align: center;
+    width: 70%;
+}
+
+.items-filter{
+    width: 70%;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.items-filter button{
+    height: 4rem;
+    width: 5.5rem;
+    border: none;
+    background-color: var(--primary-color);
+    margin: 0 1rem;
+    color: var(--ligth-color);
+    font-size: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn-arrow-filter:hover, #btn-search:hover{
+    text-shadow: 0 0 0.5rem var(--ligth-color);
+    font-size: 2.1rem;
+    
+}
+#input-filter{
+    height: 4rem;
+    width: calc(100% - 2*5.5rem);
+    font-size: 1.6rem;
+}
+
+.bem-avaliados{
+    width: 100vw;
+    height: 35vh;
+}
+
+.bem-avaliados h3{
+    text-align: center;
+}
+
+.items-avaliados-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28vh;
+    width: 100%;
+    background-color:#004bad34;
+}
+.btn-avaliados{
+    height: 100%;
+    width: 6rem;
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+    color: var(--ligth-color);
+    margin: 0 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.container-fluid{
+    justify-content: center!important;
+    position: relative;
+}
+
+#btn-menu{
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+}
+
+.data-blocks{
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+}
+
+.btn-avaliados:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+.carousel-anuncios{
+    height: 100%;
+    width: 90vw;
+    overflow: hidden;
+}
+
+.container-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 200%;
+    gap: 1rem;
+    transform:translateX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.anuncios-avaliados{
+    display: flex;
+    height: 20vh;
+    width: 17vw;
+    border: 0.2rem solid var(--ligth-color);
+}
+
+
+/*--------------------------------------------------------------*/
+.box-login{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-login h4{
+    text-align: center;
+}
+
+.box-login h4:hover{
+    text-decoration: underline;
+}
+
+.inputs-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 20rem;
+    gap: 3rem;
+    width: 22vw;
+}
+
+.input-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 22vw;
+
+}
+
+.input-login input{
+    border: none;
+    border-bottom: 0.2rem solid var(--dark-color);
+    width: 100%;
+    padding-left: 1.5rem;
+    height: 3.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-password-login p a{
+    font-size: 1.4rem;
+}
+
+.input-password-login p a:hover{
+    text-decoration: underline;
+}
+
+.btn-login{
+    background-color: var(--primary-color);
+    color: var(--ligth-color);
+    height: 4.5rem;
+    width: 10rem;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-login:hover{
+    box-shadow: 0 0 1rem var(--primary-color);
+}
