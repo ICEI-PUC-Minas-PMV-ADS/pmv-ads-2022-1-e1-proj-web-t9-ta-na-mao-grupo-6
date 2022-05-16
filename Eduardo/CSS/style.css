@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #004AAD;
+    --light-color: rgb(255, 255, 255);
+    --dark-color: rgb(0, 0, 0);
+    --segundary-color: #648cc0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4.5rem;
+}
+h3 {
+    font-size: 4rem;
+}
+h4 {
+    font-size: 3.5rem;
+}
+h5 {
+    font-size: 3rem;
+}
+h6{
+    font-size: 2rem;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+}
+.menu-bar {
+    height: 6rem;
+    width: 100vw;
+}
+.bg-primary {
+    background-color: var(--primary-color) !important;
+    color: var(--light-color);
+}
+.navbar {
+    height: 100%;
+    width: 100%;
+}
+.btn-menu {
+    height: 4rem;
+    width: 5rem;
+    background-color: var(--primary-color);
+    border: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+.trace {
+    border: 0.1rem solid var(--light-color);
+    width: 90%;
+    height: 0.3rem;
+}
+.btn-menu:hover {
+    border: 0.1rem solid var(--light-color);
+}
+.logo-tanamao a img {
+    height: 10rem;
+    transition: 0.3s ease-in-out;
+}
+.logo-tanamao a img:hover {
+    height: 5.5rem;
+}
+.data-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 5rem;
+    width: 17rem;
+    margin-right: 2rem;
+}
+.btn-login {
+    background-color: var(--primary-color);
+    border: 0.2rem solid var(--light-color);
+    color: var(--light-color);
+    font-size: 1.4rem;
+    height: 3.5rem;
+    width: 6rem;
+    transition: 0.3s ease-in-out;
+}
+.btn-login:hover {
+    background-color: rgba(255, 255, 255, 0.76);
+}
+.data-blocks a p {
+    font-size: 1.2rem;
+    color: var(--light-color);
+    transition: 0.3s ease-in-out;
+}
+.data-blocks a p:hover {
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+.page-default {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container-main {
+    width: 50vw;
+    height: calc(100vh - 6rem);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.bem-avaliados {
+    width: 100vw;
+    height: 25rem;
+    background-color: #004bad34;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.bem-avaliados h2 {
+    text-align: center;
+    height: auto;
+}
+.items-avaliados-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.btn-avaliados {
+    height: 100%;
+    width: 6rem;
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+    color: var(--light-color);
+    margin: 0 2rem;
+    transition: all 0.3s ease-in-out;
+}
+.btn-avaliados:hover {
+    background-color: var(--segundary-color);
+}
+.carousel-anuncios {
+    height: 100%;
+    width: 90vw;
+    overflow: hidden;
+}
+.container-carousel {
+    display: grid;
+    grid-template-columns: 29vw 29vw 29vw;
+    gap: 2rem;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.anuncios-avaliados {
+    display: flex;
+    height: 17rem;
+    width: 36rem;
+}
+.outros-anuncios{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outros-anuncios-avaliados{
+    width: 90vw;
+    height: 100%;
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 29vw 29vw 29vw;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.outros-avaliados{
+    display: flex;
+    height: 15rem;
+    width: 36rem;
+    border: 0.2rem solid black;
+}
+.layout-anuncio-avaliado{
+    display: flex;
+    align-items: center;
+}
+.layout-anuncio-avaliado img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.description-anuncios-avaliados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 1rem;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.description-anunciante-avaliado{
+    grid-column: 1 / span 2;
+}
