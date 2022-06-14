@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <div class="container-fluid">
+                <div class="bloco-menu bloco-items-navbar flex-row flex-center">
+                    <ul class="list-items-menu">
+                        <a href="./anuncios-gerais.html">
+                            <li class="item-list-menu">Geral</li>
+                        </a>
+                        <a href="./produtos.html">
+                            <li class="item-list-menu">Produtos</li>
+                        </a>
+                        <a href="./servicos.html">
+                            <li class="item-list-menu">Serviços</li>
+                        </a>
+                    </ul>
+                    <button class="btn-menu-navbar">
+                        <div class="trace trace1"></div>
+                        <div class="trace trace2"></div>
+                        <div class="trace trace3"></div>
+                    </button>
+                    <span>Menu</span>
+                </div>
+                <a class="navbar-brand" href="./index.html"><img src="./assets/img/tanamao.png" alt="Logo do projeto 'Ta na Mão'"></a>
+                <div class="bloco-login bloco-items-navbar flex-column flex-center">
+                    <a href="./login.html"><button class="btn-login btn btn-outline-primary">Entrar</button></a>
+                    <a href="./cadastro.html"><span>Cadastre-se</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="pagina-padrao">
+        <div class="container login">
+            <section class="box-login flex-column space-around">
+                <h4><a href="./cadastro.html">Ainda não tem uma conta anunciante?<br>
+                        Cadastre-se!</a>
+                </h4>
+                <div class="content-login flex-column flex-center">
+                    <div class="input-email-login inputs-login" id="input-email-login">
+                        <label for="login-email"><b>Email</b></label>
+                        <input type="email" placeholder="Digite seu email" id="login-email" class="form-control">
+                    </div>
+                    <div class="input-password-login inputs-login">
+                        <label for="login-password"><b>Senha</b></label>
+                        <input type="password" placeholder="Digite sua senha" id="login-password" class="form-control">
+                        <p><a href="#">Esqueceu sua senha? Clique aqui!</a></p>
+                    </div>
+                    <a href="#"><button class="btn-login btn-logar" id="btn-login">Entrar</button></a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer class="py-5 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 fs-4">
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="./termos-uso.html" class="nav-link px-2 text-muted">Termos de uso</a></li>
+            <li class="nav-item"><a href="./quem-somos.html" class="nav-link px-2 text-muted">Valores</a></li>
+            <li class="nav-item"><a href="./quem-somos.html" class="nav-link px-2 text-muted">Quem somos</a></li>
+            <li class="nav-item"><a href="./quem-somos.html" class="nav-link px-2 text-muted">Ajuda</a></li>
+        </ul>
+        <p class="text-center fs-4"><strong>Plataforma Tá na Mão</strong></p>
+    </footer>
+
+    <script src="./assets/JS/menu-navbar.js"></script>
+    <script src="./assets/JS/cpf-validar.js"></script>
+    <script src="./assets/JS/login.js"></script>
+    <script src="./assets/JS/acesso-pages-logado.js"></script>
+</body>

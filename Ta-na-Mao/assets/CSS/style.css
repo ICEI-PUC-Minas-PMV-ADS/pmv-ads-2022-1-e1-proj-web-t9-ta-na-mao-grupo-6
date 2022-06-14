@@ -1,0 +1,1201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --cor-fonte-principal: #000;
+    --cor-principal: #004AAD;
+    --cor-secundaria: #fff;
+    --cor-terciaria: #9EC7FF;
+    --cor-textoError: #f00;
+    --tamanho-medio-tela: 768px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: var(--cor-fonte-principal);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+/*########### Limpando e Padronizand código ################*/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-around {
+    align-items: center;
+    justify-content: space-around !important;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+/*###########################################*/
+/*################# CABEÇALHO ##########################*/
+/*###########################################*/
+
+header {
+    height: 8rem;
+    width: 100%;
+}
+
+.navbar {
+    height: 100%;
+    min-width: 0vw;
+}
+
+.bg-primary {
+    background-color: var(--cor-principal) !important;
+}
+
+.bloco-items-navbar {
+    width: 13rem;
+    height: 7rem;
+    margin: 0 2rem;
+}
+
+.bloco-menu {
+    color: var(--cor-secundaria);
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+
+.list-items-menu {
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    width: 20rem;
+    height: 0rem;
+    background-color: var(--cor-terciaria);
+    overflow-y: hidden;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.list-items-menu.active {
+    height: 20rem;
+}
+
+.item-list-menu {
+    height: 33%;
+    width: 100%;
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+    line-height: 5rem;
+    border: 0.2rem solid var(--cor-fonte-principal);
+    color: var(--cor-secundaria);
+    transition: 0.3s ease-in-out;
+
+}
+
+.item-list-menu:hover {
+    background-color: var(--cor-principal);
+}
+
+.btn-menu-navbar {
+    height: 6rem;
+    width: 8rem;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-menu-navbar:hover {
+    border: 0.2rem solid var(--cor-secundaria);
+}
+
+.trace {
+    width: 5rem;
+    height: 0.1rem;
+    background-color: var(--cor-secundaria);
+    position: absolute;
+    left: 1.3rem;
+}
+
+.trace1 {
+    top: 1rem;
+}
+
+.trace3 {
+    bottom: 1rem;
+}
+
+.navbar-brand img {
+    height: 6rem;
+}
+
+.btn-login {
+    width: 7rem;
+    height: 4rem;
+    border-color: var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 1.4em;
+}
+
+.bloco-login a span {
+    color: var(--cor-secundaria);
+    font-size: 1.6em;
+}
+
+.bloco-login a span:hover {
+    text-decoration: underline;
+}
+
+.bloco-perfil {
+    position: relative;
+    gap: 1rem;
+}
+
+.bloco-perfil a {
+    width: 7rem;
+    height: 6rem;
+}
+
+.btn-perfil-navbar {
+    width: 6rem;
+    background-color: transparent;
+    border: none;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.btn-perfil-navbar img {
+    border-radius: 50%;
+    height: 6rem;
+    width: 8rem;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-perfil-navbar img:hover {
+    box-shadow: 0 0 2rem var(--cor-secundaria);
+}
+
+.bloco-perfil a span {
+    color: var(--cor-secundaria);
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.sair-perfil:hover {
+    text-decoration: underline;
+}
+
+
+/*######## FIM DO CABEÇALHO ########*/
+
+/*#####################################*/
+/*################# TELA HOME PAGE ####################*/
+/*#####################################*/
+
+
+.pagina-padrao {
+    min-height: calc(100vh - 8rem);
+    width: 100%;
+
+}
+
+.container {
+    min-height: calc(100vh - 8rem);
+    width: 75%;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco-filtro {
+    height: 30rem;
+    width: 75rem;
+    border: 0.4rem solid var(--cor-principal);
+    display: block;
+    float: inline-end;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.bloco-filtro h2 {
+    color: var(--cor-principal);
+    margin: 4rem auto 0;
+    width: 59rem;
+}
+
+.items-filtro {
+    margin: 8rem auto 0;
+    width: 59rem;
+    position: relative;
+}
+
+.lista-filtro {
+    position: absolute;
+    top: 4rem;
+    left: 5.5rem;
+    background-color: var(--cor-terciaria);
+    width: 15rem;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.lista-filtro li {
+    height: 3rem;
+    width: 100%;
+    font-size: 1.6em;
+    border: 0.2rem solid var(--cor-fonte-principal);
+}
+
+.lista-filtro.active {
+    height: 6rem;
+}
+
+.lista-filtro.active+.btn-filtro span {
+    transform: rotate(-90deg);
+}
+
+.btn-filtro {
+    height: 4rem;
+    width: 6rem;
+    border: none;
+    margin: 0 1rem;
+    border: 0.4rem solid var(--cor-principal);
+    font-size: 2.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-filtro span {
+    transform: rotate(90deg);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-filtro:hover {
+    box-shadow: 0 0 1rem var(--cor-principal);
+}
+
+
+#input-filtro {
+    width: 35rem;
+    height: 4rem;
+    padding-left: 1rem;
+    outline: none;
+    border: 0.2rem solid var(--cor-principal);
+    font-size: 1.6em;
+}
+
+#input-filtro:focus {
+    box-shadow: 0 0 1rem var(--cor-principal);
+}
+
+.anuncios-filtrados {
+    min-height: 0vh;
+    width: 100%;
+    justify-content: flex-start !important;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+/*#####################################*/
+/*################# TELA DE CADASTRO ####################*/
+/*#####################################*/
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-cadastro {
+    width: 70rem;
+    height: 100%;
+    gap: 2rem;
+}
+
+.input-form-cadastro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+}
+
+.input-form-cadastro input {
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.6em;
+    border: none;
+    border-bottom: 0.2rem solid var(--cor-principal);
+    border-left: 0.2rem solid var(--cor-principal);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-form-cadastro input:focus {
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 0.7rem var(--cor-principal);
+}
+
+.input-form-cadastro label {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.container-endereco {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.input-endereco {
+    width: 100%;
+}
+
+.input-rua {
+    grid-column: 1 / span 2;
+    width: 100%;
+}
+
+.container-termos-uso {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+.container-termos-uso label a {
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+.container-termos-uso label a:hover {
+    text-decoration: underline;
+}
+
+.btn-submit-formulario {
+    border: none;
+    font-size: 1.4em;
+    font-weight: 700;
+    height: 4rem;
+    width: 12rem;
+}
+
+.error-text {
+    font-size: 1.2rem;
+    color: var(--cor-textoError);
+}
+
+/*############## FIM TELA DE CADASTRO ##########*/
+
+/*#####################################*/
+/*################# TELA DE LOGIN ####################*/
+/*#####################################*/
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-login {
+    height: 50vh;
+    width: 50rem;
+}
+
+.box-login h4 {
+    width: 40rem;
+    text-align: center;
+}
+
+.box-login h4:hover {
+    text-decoration: underline;
+}
+
+.content-login {
+    align-items: flex-start !important;
+    height: 20rem;
+    gap: 3rem;
+    width: 30rem;
+}
+
+.inputs-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.inputs-login input {
+    border: none;
+    border-bottom: 0.2rem solid var(--cor-fonte-principal);
+    width: 100%;
+    padding-left: 1.5rem;
+    height: 3.2rem;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.6rem;
+}
+
+.inputs-login label {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.input-password-login p a {
+    font-size: 1.4rem;
+}
+
+.input-password-login p a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    height: 4.5rem;
+    width: 10rem;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    box-shadow: 0 0 1rem var(--cor-principal);
+}
+
+/*############## FIM TELA DE LOGIN ##########*/
+
+
+/*#####################################*/
+/*################# TELA DE PERFIL ####################*/
+/*#####################################*/
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-perfil {
+    width: 99vw;
+    height: 7rem;
+    display: flex;
+    align-items: flex-start;
+    top: 0;
+}
+
+.nav-perfil a {
+    width: 100%;
+    height: 100%;
+    font-size: 2.2em;
+    background-color: var(--cor-secundaria);
+    border: 0.4rem solid var(--cor-fonte-principal);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-pages-perfil {
+    background-color: transparent;
+    border: none;
+    font-size: 2.2em;
+}
+
+.nav-perfil a:hover, .nav-perfil a:focus {
+    background-color: #004bad57;
+}
+
+.corpo-conteudo {
+    width: 85rem;
+    min-height: 50%;
+}
+
+/*#####################################*/
+/*################# TELA DE NAV PERFIL ####################*/
+/*#####################################*/
+.dados-anunciante {
+    align-items: flex-start !important;
+    margin-top: 5rem;
+    height: 40rem;
+    min-width: 40rem;
+    gap: 3rem;
+}
+
+.dados-anunciante div {
+    border-bottom: .2rem solid var(--cor-principal);
+    border-left: .2rem solid var(--cor-principal);
+    border-radius: .5rem !important;
+    height: 25%;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.dados-anunciante div h4 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.dados-anunciante div span {
+    font-size: 1.6em;
+}
+
+.btn-editar-dados {
+    background-color: var(--cor-terciaria);
+    border: 0.3rem solid var(--cor-principal);
+    color: var(--cor-fonte-principal);
+
+    height: 6rem;
+    width: 20rem;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 1rem 0;
+    margin-top: 5rem;
+
+    transition: 0.3s ease-in-out;
+}
+
+.btn-editar-dados:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+
+}
+
+.btn-excluir-perfil {
+    background-color: var(--cor-textoError);
+    border: 0.3rem solid var(--cor-fonte-principal);
+    color: var(--cor-fonte-principal);
+
+    height: 6rem;
+    width: 20rem;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 1rem 0;
+    margin-top: 5rem;
+
+    transition: 0.3s ease-in-out;
+
+}
+
+.btn-excluir-perfil:hover {
+    background-color: var(--cor-fonte-principal);
+    color: var(--cor-textoError);
+
+}
+
+.msg-excluir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    position: fixed;
+    z-index: 100;
+    height: 40rem;
+    width: 60rem;
+    color: #004AAD;
+    background-color: rgb(197, 197, 197);
+    border: 0.2rem solid var(--cor-principal);
+}
+
+.btn-excluir {
+    width: 15rem;
+    height: 5rem;
+    margin-top: 1rem;
+    background-color: #004AAD;
+    border: var(--cor-fonte-principal);
+    color: var(--cor-secundaria);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-excluir:hover {
+    background-color: var(--cor-terciaria);
+    color: #000;
+}
+
+
+/*############## FIM TELA DE NAV PERFIL ##########*/
+
+/*#####################################*/
+/*################# TELA DE NAV MEUS ANUNCIOS ####################*/
+/*#####################################*/
+
+.title-page-anuncios {
+    min-width: 10rem;
+    text-align: center;
+    font-size: 4rem;
+    padding: 0 1rem;
+    color: var(--cor-principal);
+    border-radius: 2rem;
+    background-color: var(--cor-terciaria);
+}
+
+.meus-anuncios {
+    width: 99vw;
+    min-height: 0vh;
+    margin-top: 2rem;
+    font-size: 2em;
+    gap: 2rem;
+}
+
+
+
+.btn-criar-anuncio {
+    background-color: var(--cor-principal);
+    border: 0.3rem solid var(--cor-principal);
+    color: var(--cor-secundaria);
+
+    height: 6rem;
+    width: 40rem;
+    font-size: 1.6em;
+    margin: 1rem 0;
+
+    transition: 0.3s ease-in-out;
+}
+
+.btn-criar-anuncio:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+
+.meu-anuncio {
+    width: 90vw;
+    min-height: 25rem;
+    background-color: rgb(240, 255, 255);
+    border: 0.3rem solid var(--cor-principal);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.campo-img-anuncio {
+    height: 20rem;
+    width: 20rem;
+    border: 0.3rem solid var(--cor-principal);
+    border-radius: 50%;
+}
+
+#img-anuncio {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.dados-anuncio {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 1rem;
+    height: 100%;
+    width: 60%;
+}
+
+.dados-anuncio h4 {
+    font-size: 4rem;
+}
+
+.dados-anuncio h5 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.titulo-anuncio {
+    grid-column: 1 / span 2;
+}
+
+.text-descricao-anuncio {
+    grid-column: 1 / span 2;
+}
+
+.content-tel-anunciante {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-tel-anunciante {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.btn-excluir-anuncio {
+    background-color: var(--cor-secundaria);
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+
+
+
+/*############## FIM TELA DE LOGIN ##########*/
+
+/*###########################################*/
+/*################# CADASTRO DE ANUNCIOS ##########################*/
+/*###########################################*/
+
+.page-cadastro-anuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.titulo-pagina {
+    background-color: var(--cor-terciaria);
+    min-width: 10rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    font-size: 4em;
+    padding: 0 1rem;
+
+}
+
+.formulario-anuncio {
+    width: 75vw;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.campo-input-img {
+    height: 60rem;
+    width: 30rem;
+}
+
+.campo-input-img label {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+.img-anuncio {
+    border: 0.2rem solid var(--cor-fonte-principal);
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#descricao-img-anuncio {
+    height: 12rem;
+    padding: 0.5rem;
+    font-size: 1.6em;
+    border: 0.1rem solid var(--cor-principal);
+    border-radius: 1rem;
+    transition: 0.1s ease-in-out;
+
+}
+
+.cadastro-anuncio {
+    height: 100%;
+}
+
+.inputs-cadastro-anuncio {
+    align-items: flex-start;
+    height: 100%;
+    gap: 2rem;
+}
+
+.tipo-anuncio {
+    display: flex;
+    width: 40rem;
+    background-color: var(--cor-terciaria);
+    border-radius: 2rem;
+}
+
+.layout-tipo-anuncio {
+    width: 50%;
+    height: 3rem;
+    gap: 1rem;
+    font-size: 2em;
+}
+
+
+.inputs-cadastro-anuncio label {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.inputs-cadastro-anuncio input {
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.6em;
+    border: none;
+    border-bottom: 0.1rem solid var(--cor-principal);
+    border-left: 0.1rem solid var(--cor-principal);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.cadastro-anuncio input:focus {
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 0.7rem var(--cor-principal);
+
+}
+
+#descricao-anuncio {
+    height: 12rem;
+    padding: 0.5rem;
+    font-size: 1.6em;
+    border: 0.1rem solid var(--cor-principal);
+    border-radius: 1rem;
+    transition: 0.1s ease-in-out;
+}
+
+#descricao-anuncio:focus {
+    border: none;
+    outline: outset;
+    outline-color: #004AAD;
+}
+
+.btn-submit-anuncio {
+    margin-top: 3rem;
+    width: 16rem;
+    height: 6rem;
+    font-size: 1.6em;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background-color: var(--cor-principal);
+    border: 0.3rem solid var(--cor-principal);
+    color: var(--cor-secundaria);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-submit-anuncio:hover {
+    box-shadow: 0 0 2rem var(--cor-principal);
+}
+
+/*#########################################################*/
+.anuncios {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.anuncios-gerais {
+    width: 99vw;
+    min-height: 0vh;
+    margin-top: 2rem;
+    justify-content: center;
+    font-size: 2em;
+    gap: 2rem;
+}
+
+
+/*#######################################################*/
+
+.editor-dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-termos {
+    text-align: center;
+    font-weight: 700;
+}
+
+.termos-uso-privacidade>p {
+    font-size: 1.8em;
+}
+
+
+@media (max-width: 1000px) {
+    .anuncio-avaliado {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 5rem;
+    }
+
+    .bloco-filtro {
+        width: 100%;
+    }
+
+    .bloco-filtro h2 {
+        width: 100%;
+    }
+
+    .corpo-conteudo {
+        width: 100%;
+    }
+
+    .formulario-anuncio {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .formulario-cadastro {
+        width: 50rem;
+    }
+
+    .container-endereco {
+        width: 100%;
+    }
+
+    .input-form-cadastro {
+        width: 60%;
+    }
+
+    .input-form-cadastro input {
+        font-size: 1.4rem;
+    }
+
+    .items-filtro {
+        width: 100%;
+    }
+
+    .dados-anuncio div>h5 {
+        font-size: 1.5rem;
+    }
+
+    .dados-anuncio div>p {
+        font-size: 1.4rem;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .bloco-items-navbar {
+        width: 10rem;
+    }
+
+    .trace {
+        width: 4rem;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .formulario-cadastro {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-form-cadastro {
+        height: 6rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-form-cadastro input {
+        height: 3rem;
+    }
+
+    .input-form-cadastro label {
+        font-size: 1.4em;
+    }
+
+
+    .container-endereco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
+    .box-login {
+        width: 100%;
+    }
+
+    .meu-anuncio {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .campo-img-anuncio {
+        height: 10rem;
+        width: 10rem;
+
+    }
+
+    .dados-anuncio {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .dados-anuncio div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .dados-anuncio div>h5 {
+        font-size: 1.5rem;
+    }
+
+    .dados-anuncio div>p {
+        font-size: 1.4rem;
+    }
+
+    .dados-anuncio div>h5, .dados-anuncio div>p {
+        margin-bottom: 0;
+    }
+
+    .msg-excluir {
+        height: 40rem;
+        width: 40rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 456px) {
+
+    .formulario-cadastro {
+        height: 110vh;
+    }
+
+    .bloco-menu span {
+        visibility: hidden;
+    }
+
+    .navbar-brand img {
+        width: 10rem !important;
+        height: 5rem;
+    }
+
+    .bloco-items-navbar {
+        width: 8rem;
+        margin: 0;
+    }
+
+    .bloco-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco-login a {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .btn-login {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .box-login h4 {
+        width: 100%;
+    }
+
+    .btn-logar {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .bloco-login a span {
+        font-size: 1.4em;
+    }
+
+    #input-filtro {
+        width: 18rem;
+    }
+
+    .btn-filtro {
+        width: 4rem;
+    }
+
+    .nav-perfil a {
+        text-align: center;
+    }
+
+    .dados-anunciante {
+        min-width: 100% !important;
+    }
+
+    .cadastro-anuncio {
+        width: 100%;
+    }
+
+    .inputs-cadastro-anuncio {
+        width: 100%;
+    }
+
+    .tipo-anuncio {
+        width: 100%;
+    }
+
+    .btn-criar-anuncio {
+        width: 100%;
+    }
+
+    .title-meus-anuncios {
+        text-align: center;
+    }
+
+    .msg-excluir {
+        height: 30rem;
+        width: 30rem;
+    }
+
+}

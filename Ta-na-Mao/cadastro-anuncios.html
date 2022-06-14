@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Cadastro de Anúncios</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <div class="container-fluid">
+                <div class="bloco-menu bloco-items-navbar flex-row flex-center">
+                    <ul class="list-items-menu">
+                        <a href="./gerais-logado.html">
+                            <li class="item-list-menu">Geral</li>
+                        </a>
+                        <a href="./produtos-logado.html">
+                            <li class="item-list-menu">Produtos</li>
+                        </a>
+                        <a href="./servicos-logado.html">
+                            <li class="item-list-menu">Serviços</li>
+                        </a>
+                    </ul>
+                    <button class="btn-menu-navbar">
+                        <div class="trace trace1"></div>
+                        <div class="trace trace2"></div>
+                        <div class="trace trace3"></div>
+                    </button>
+                    <span>Menu</span>
+                </div>
+                <a class="navbar-brand" href="./home-page-logado.html"><img src="./assets/img/tanamao.png" alt="Logo do projeto 'Ta na Mão'"></a>
+                <div class="bloco-perfil bloco-items-navbar flex-row flex-center">
+                    <a href="./index.html" class="flex-row flex-center"><span class="sair-perfil">Sair</span></a>
+                    <a href="./perfil.html" class="flex-row flex-center"><button class="btn-perfil-navbar flex-row flex-center"><img src="./assets/img/icon-branco.png"
+                                alt=""></button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="pagina-padrao">
+        <div class="container page-cadastro-anuncio">
+            <h2 class="titulo-pagina">Cadastro de Anúncios</h2>
+            <form action="" class="formulario-anuncio flex-row space-around" method="post"
+                enctype="multipart/form-data">
+                <div class="campo-input-img flex-column space-around">
+                    <div class="flex-column space-around">
+                        <label for="input-img-anuncio">Adicionar Imagem</label>
+                        <input type="file" class="input-img-anuncio validar" name="imagem-anuncio"
+                            id="input-img-anuncio" accept="image/png, image/jpeg"><br>
+                    </div>
+                    <div class="img-anuncio">
+                    </div>
+                    <div class="layout-descricao-img">
+                        <label for="descricao-img-anuncio">Descrição da imagem:</label>
+                        <textarea name="descricao-img" cols="30" rows="10" id="descricao-img-anuncio" class="validar"
+                            placeholder="Ex.: Uma bola de futebol, com gomos em pentágonos alternando as cores preto e branco"></textarea>
+                    </div>
+                </div>
+                <div class="cadastro-anuncio flex-column flex-center">
+                    <div class="inputs-cadastro-anuncio flex-column flex-center">
+                        <div class="tipo-anuncio" method="post">
+                            <div class="layout-tipo-anuncio flex-row flex-center">
+                                <span>Produto</span>
+                                <input type="radio" name="tipo-anuncio" class="radio-tipo-anuncio validar"
+                                    id="anuncio-produto">
+                            </div>
+                            <div class="layout-tipo-anuncio flex-row flex-center">
+                                <span>Serviço</span>
+                                <input type="radio" name="tipo-anuncio" class="radio-tipo-anuncio validar"
+                                    id="anuncio-servico">
+                            </div>
+                        </div>
+
+                        <label for="titulo-anuncio">Título do Anúncio</label>
+                        <input type="text" class="validar form-control" id="titulo-anuncio"
+                            placeholder="Ex.: Bola de Futebol">
+                        <label for="vendedor-anuncio">Nome Do Vendedor</label>
+                        <input type="text" class="validar form-control" id="vendedor-anuncio" placeholder="Ex.: José">
+                        <label for="contato-anunciante">Telefone: </label>
+                        <input type="tel" class="validar form-control" id="contato-anunciante"
+                            placeholder="31 90000-0000">
+                        <label for="valor-anuncio">Preço (R$):</label>
+                        <input type="number" step="0.01" class="validar form-control" id="valor-anuncio"
+                            placeholder="Ex.: 50,00">
+                        <label for="descricao-anuncio">Descrição:</label>
+                        <textarea name="descripton" cols="30" rows="10" id="descricao-anuncio"
+                            placeholder="Ex.: Bola de futebol, costurada a mão" class="validar"></textarea>
+                        <button type="submit" class="btn-submit-anuncio">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="py-5 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 fs-4">
+            <li class="nav-item"><a href="./home-page-logado.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="./termos-uso-logado.html" class="nav-link px-2 text-muted">Termos de uso</a></li>
+            <li class="nav-item"><a href="./quem-somos-logado.html" class="nav-link px-2 text-muted">Valores</a></li>
+            <li class="nav-item"><a href="./quem-somos-logado.html" class="nav-link px-2 text-muted">Quem somos</a></li>
+            <li class="nav-item"><a href="./quem-somos-logado.html" class="nav-link px-2 text-muted">Ajuda</a></li>
+        </ul>
+        <p class="text-center fs-4"><strong>Plataforma Tá na Mão</strong></p>
+    </footer>
+    <script src="./assets/JS/menu-navbar.js"></script>
+    <script src="./assets/JS/cadastro-anuncio.js"></script>
+    <script src="./assets/JS/validacao-anuncio.js"></script>
+    <script src="./assets/JS/acesso-pages.js"></script>
+    <script src="./assets/JS/sair-perfil.js"></script>
+
+</body>
+
+</html>
