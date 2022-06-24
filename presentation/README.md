@@ -1,5 +1,5 @@
 # Apresentação da Solução
 
 Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
-Segue abaixo o link para acesso ao site "Tá na Mão".<\br>
+Segue abaixo o link para acesso ao site "Tá na Mão". \n
 https://icei-puc-minas-pmv-ads.github.io/ta-na-mao-grupo6.github.io/
