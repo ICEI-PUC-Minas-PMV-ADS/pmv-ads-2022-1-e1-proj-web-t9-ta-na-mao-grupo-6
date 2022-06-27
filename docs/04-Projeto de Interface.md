@@ -108,7 +108,7 @@ Fonte: Criado pelos autores.
 
 ### 4.2.7. TELA – LOGIN
 
-     Possuirá uma opção de login para o usuário, dando a ele uma opção de anunciar um produto ou serviço.
+Possuirá uma opção de login para o usuário, dando a ele uma opção de anunciar um produto ou serviço.
 
 Imagem 12 – Tela de cadastro de anúncio
 ![Tela de cadastro de anúncio](img/wireframe-example.png)
