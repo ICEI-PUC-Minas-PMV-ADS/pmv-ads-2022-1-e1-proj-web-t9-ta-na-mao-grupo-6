@@ -10,12 +10,12 @@
     O esquema de construção da página do site “Tá na Mão” é exemplificado abaixo através do fluxograma 1. A interação entre o usuário e o site está indicada por meio das setas.
 
 Imagem 2.1 – Fluxo do usuário
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Fluxo do usuário](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 
 Imagem 2.2 – Fluxo do usuário não logado
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Fluxo do usuário não logado](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 ## 4.2 WIREFRAMES
@@ -25,7 +25,7 @@ Conteúdo - apresenta os anúncios cadastrados no site.
 
 
 Imagem 3 – Estrutura padrão do site.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Estrutura padrão do site](img/wireframe-example.png)
 Fonte: Criado pelos autores
 
 
@@ -34,7 +34,7 @@ Fonte: Criado pelos autores
     A tela de Home Page exibe anúncios para o usuário conforme informações do sistema. Fundamentado pela estrutura padrão do site, o bloco de Conteúdo mostra os anúncios (serviços, produtos) e ao centro dela possui uma caixa para pesquisa de anúncios de maior necessidade do cliente.
 
 Imagem 4 – Tela Home Page
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela Home Page](img/wireframe-example.png)
 Fonte: Criada pelos autores.
 
 ### 4.2.2. TELA – MENU
@@ -46,7 +46,7 @@ Fonte: Criada pelos autores.
 3. Serviços - do mesmo modo que a opção Produtos, em uma nova página, irá filtrar os anúncios como Serviços.
 
 Imagem 5 – Tela de menu
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela de menu](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 ### 4.2.3. TELAS – NAVEGAÇÃO PELO MENU
@@ -55,15 +55,15 @@ Fonte: Criado pelos autores.
 a cima. Observa-se em seguida a página de todas as opções do menu.
 
 Imagem 6 – Tela da opção “Geral” do menu.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![ela da opção “Geral” do menu](img/wireframe-example.png)
 Fonte: Criada pelos autores.
 
 Imagem 7 – Tela da opção “Produtos” do menu.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela da opção “Produtos” do menu](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 Imagem 8 – Tela da opção “Serviços” do menu.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela da opção “Serviços” do menu](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 ### 4.2.4. TELA – BLOCO DE RESULTADO DA PESQUISA
@@ -72,7 +72,7 @@ Fonte: Criado pelos autores.
 
 
 Imagem 9 – Tela do bloco de pesquisa.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela do bloco de pesquisa](img/wireframe-example.png)
 Fonte: Criada pelos autores.
 
 ### 4.2.5. TELA - CADASTRO DO ANUNCIANTE
@@ -87,7 +87,7 @@ Fonte: Criada pelos autores.
 6. Senha
 
 Imagem 10 – Tela de cadastro do anunciante.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![ela de cadastro do anunciante](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 ### 4.2.6. TELA – CADASTRO DO ANÚNCIO
@@ -102,7 +102,7 @@ Fonte: Criado pelos autores.
 
 
 Imagem 11 – Tela de cadastro do anúncio.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela de cadastro do anúncio](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 
@@ -111,7 +111,7 @@ Fonte: Criado pelos autores.
      Possuirá uma opção de login para o usuário, dando a ele uma opção de anunciar um produto ou serviço.
 
 Imagem 12 – Tela de cadastro de anúncio
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela de cadastro de anúncio](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 ### 4.2.8. TELA – PERFIL DO ANUNCIANTE
@@ -120,11 +120,11 @@ Fonte: Criado pelos autores.
 
 
 Imagem 13 – Tela do perfil do anunciante.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela do perfil do anunciante](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 Imagem 14 – Tela dos anúncios do anunciante.
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Tela dos anúncios do anunciante](img/wireframe-example.png)
 Fonte: Criado pelos autores.
 
 
