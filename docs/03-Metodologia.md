@@ -1,7 +1,6 @@
 
 # 3. Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 A organização disposta da equipe, definida as pessoas e suas respectivas funções, assim como as ferramentas e seus respectivos usos durante o desenvolvimento do site “Tá na mão”, estão explicitados na metodologia de projeto.
 
