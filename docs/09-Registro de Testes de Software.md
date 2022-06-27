@@ -1,12 +1,75 @@
-# Registro de Testes de Software
+# 9. REGISTRO DE TESTES DE SOFTWARE
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+## RF-01 e RF-05
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+#### Plano de teste 01
 
-## Avaliação
+![EFormulário de cadastro de usuário](img/wireframe-example.png)
+Formulário de cadastro de usuário
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+![Obrigatoriedade dos campos do formulário](img/wireframe-example.png)
+Obrigatoriedade dos campos do formulário
+
+
+![Perfil criado com sucesso!](img/wireframe-example.png)
+Perfil criado com sucesso!
+
+
+![Validação do perfil](img/wireframe-example.png)
+Validação do perfil
+
+
+#### Plano de teste 02
+
+![Efetuação do login](img/wireframe-example.png)
+Efetuação do login
+
+
+![Dados iniciais](img/wireframe-example.png)
+Dados iniciais
+
+
+![Dados alterados](img/wireframe-example.png)
+Dados alterados
+
+
+
+## RF-02, RF-03, RF-04 e RF-06
+
+#### Cenário 1 (segundo teste)
+
+![Criação do anuncio de produto](img/wireframe-example.png)
+Criação do anuncio de produto
+
+![Validação do anúncio de produto](img/wireframe-example.png)
+Validação do anúncio de produto
+
+![Criação do anúncio de serviço](img/wireframe-example.png)
+Criação do anúncio de serviço
+
+
+![Validação do anúncio de serviço](img/wireframe-example.png)
+Validação do anúncio de serviço
+
+
+
+#### Cenário 2
+
+![Validação do filtro de busca referente a produto](img/wireframe-example.png)
+Validação do filtro de busca referente a produto
+
+![Validação do filtro de busca referente a serviço](img/wireframe-example.png)
+Validação do filtro de busca referente a serviço
+
+
+#### Cenário 3
+
+![Login no perfil do site](img/wireframe-example.png)
+Login no perfil do site
+
+![Paginação do perfil](img/wireframe-example.png)
+Paginação do perfil
+
+![Paginação de meus anúncios](img/wireframe-example.png)
+Paginação de meus anúncios
