@@ -6,7 +6,7 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Tá na Mão
 
 ## Identidade Visual (Marca, Design)
 
