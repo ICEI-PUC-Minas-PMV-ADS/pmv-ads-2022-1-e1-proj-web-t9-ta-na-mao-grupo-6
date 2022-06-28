@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.[https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t9-ta-na-mao-grupo-6/blob/main/presentation/Apresenta%C3%A7%C3%A3o%20T%C3%A1%20na%20M%C3%A3o.pptx]
+Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t9-ta-na-mao-grupo-6/blob/main/Apresenta%C3%A7%C3%A3o%20T%C3%A1%20na%20M%C3%A3o.pptx)
 
 ## Título do Projeto
 
