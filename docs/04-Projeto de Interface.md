@@ -28,7 +28,9 @@ Conteúdo - apresenta os anúncios cadastrados no site.
 
 
 Imagem 3 – Estrutura padrão do site.
-![Estrutura padrão do site](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176070132-5a83f602-29ab-423c-b263-06a5de8372b2.png)
+
 Fonte: Criado pelos autores
 
 
@@ -37,7 +39,9 @@ Fonte: Criado pelos autores
 A tela de Home Page exibe anúncios para o usuário conforme informações do sistema. Fundamentado pela estrutura padrão do site, o bloco de Conteúdo mostra os anúncios (serviços, produtos) e ao centro dela possui uma caixa para pesquisa de anúncios de maior necessidade do cliente.
 
 Imagem 4 – Tela Home Page
-![Tela Home Page](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176070182-ca387934-b752-4d69-82ea-8b7e01e4c0e5.png)
+
 Fonte: Criada pelos autores.
 
 ### 4.2.2. TELA – MENU
@@ -49,7 +53,9 @@ No cabeçalho da página, alinhado à esquerda, o botão de menu tem a função 
 3. Serviços - do mesmo modo que a opção Produtos, em uma nova página, irá filtrar os anúncios como Serviços.
 
 Imagem 5 – Tela de menu
-![Tela de menu](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176070274-32012dfb-0134-41a5-a09c-022b488f97a7.png)
+
 Fonte: Criado pelos autores.
 
 ### 4.2.3. TELAS – NAVEGAÇÃO PELO MENU
@@ -57,15 +63,21 @@ Fonte: Criado pelos autores.
 Pelo menu, o usuário poderá navegar por 3 páginas do site, conforme informamos acima. Observa-se em seguida a página de todas as opções do menu.
 
 Imagem 6 – Tela da opção “Geral” do menu.
-![ela da opção “Geral” do menu](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176070460-2b9b8931-3246-4474-a87b-a673fbcf55d1.png)
+
 Fonte: Criada pelos autores.
 
 Imagem 7 – Tela da opção “Produtos” do menu.
-![Tela da opção “Produtos” do menu](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176070690-6449aab9-113c-4efb-8b9f-4c8267ee663f.png)
+
 Fonte: Criado pelos autores.
 
 Imagem 8 – Tela da opção “Serviços” do menu.
-![Tela da opção “Serviços” do menu](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176070850-cf7000a6-81b8-467b-abdf-ff3f185ebf1b.png)
+
 Fonte: Criado pelos autores.
 
 ### 4.2.4. TELA – BLOCO DE RESULTADO DA PESQUISA
@@ -74,7 +86,9 @@ Assim que o usuário informar a palavra-chave e clicar no desenho da lupa, botã
 
 
 Imagem 9 – Tela do bloco de pesquisa.
-![Tela do bloco de pesquisa](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176071007-f8bd8197-bec1-4897-a92c-829d9142c36a.png)
+
 Fonte: Criada pelos autores.
 
 ### 4.2.5. TELA - CADASTRO DO ANUNCIANTE
@@ -89,7 +103,9 @@ A tela tem função de cadastrar os novos anunciantes na plataforma. O interessa
 6. Senha
 
 Imagem 10 – Tela de cadastro do anunciante.
-![ela de cadastro do anunciante](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176071269-44e7593c-bdd8-413f-83ad-bf0cfbd1600d.png)
+
 Fonte: Criado pelos autores.
 
 ### 4.2.6. TELA – CADASTRO DO ANÚNCIO
@@ -105,15 +121,19 @@ Tela destinada ao cadastro dos anúncios. A página possui a função de inserir
 
 
 Imagem 11 – Tela de cadastro do anúncio.
-![Tela de cadastro do anúncio](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176071434-5f40e966-093e-49ac-8b42-5042d7680074.png)
+
 Fonte: Criado pelos autores.
 
 
 ### 4.2.7. TELA – LOGIN
 Possuirá uma opção de login para o usuário, dando a ele uma opção de anunciar um produto ou serviço.
 
-Imagem 12 – Tela de cadastro de anúncio
-![Tela de cadastro de anúncio](img/wireframe-example.png)
+Imagem 12 – Tela de Login
+
+![image](https://user-images.githubusercontent.com/102244252/176072026-a31c88bd-5a2a-4c15-8d28-fbc45fda4c4a.png)
+
 Fonte: Criado pelos autores.
 
 ### 4.2.8. TELA – PERFIL DO ANUNCIANTE
@@ -122,9 +142,13 @@ O usuário que criar um login terá uma página com opções de editar os seus d
 
 
 Imagem 13 – Tela do perfil do anunciante.
-![Tela do perfil do anunciante](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176072163-fb735992-539b-4ccf-a54a-c2c3ee026157.png)
+
 Fonte: Criado pelos autores.
 
 Imagem 14 – Tela dos anúncios do anunciante.
-![Tela dos anúncios do anunciante](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176072295-6b90a124-e860-4690-998b-f731df4ecf6c.png)
+
 Fonte: Criado pelos autores.
