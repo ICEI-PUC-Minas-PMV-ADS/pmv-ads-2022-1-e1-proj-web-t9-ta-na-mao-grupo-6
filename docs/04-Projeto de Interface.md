@@ -16,7 +16,9 @@ Fonte: Criado pelos autores.
 
 
 Imagem 2.2 – Fluxo do usuário não logado
-![Fluxo do usuário não logado](img/wireframe-example.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176070043-20f5b6d5-8899-4614-b001-3eefb300c282.png)
+
 Fonte: Criado pelos autores.
 
 ## 4.2 WIREFRAMES
