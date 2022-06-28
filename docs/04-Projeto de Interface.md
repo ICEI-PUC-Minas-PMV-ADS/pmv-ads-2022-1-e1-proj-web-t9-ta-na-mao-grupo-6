@@ -9,7 +9,9 @@ Visando uma aplicação leve a fim de garantir usabilidade e acesso aos usuário
 O esquema de construção da página do site “Tá na Mão” é exemplificado abaixo através do fluxograma 1. A interação entre o usuário e o site está indicada por meio das setas.
 
 Imagem 2.1 – Fluxo do usuário
+
 ![image](https://user-images.githubusercontent.com/102244252/176069898-3aadcb43-e315-426d-a53b-2a5bca41bb0d.png)
+
 Fonte: Criado pelos autores.
 
 
