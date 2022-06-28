@@ -4,7 +4,7 @@
 
 A tela principal do sistema apresenta uma página para realizar o login de usuário, um campo de busca por palavras-chave.
 
-![Visualização dos anúncios (RF-04)](img/wireframe-example.png)
+![image](https://user-images.githubusercontent.com/102244252/176074589-b85e2d6c-8be0-469b-8984-76ebf78622ab.png)
 
 ### Requisitos atendidos
 - RF - 04 - O site deve oferecer opções de filtro para os produtos e serviços prestados, bem como uma barra de busca por palavras-chave.
@@ -25,7 +25,7 @@ https://icei-puc-minas-pmv-ads.github.io/ta-na-mao-grupo6.github.io/
 
 O layout conta com campos para autenticação de usuário e senha.
 
-![Visualização dos Login (RF-01)](img/wireframe-example.png)
+![image](https://user-images.githubusercontent.com/102244252/176074701-7244c552-cfe7-4e42-8bc9-2e795ea2c644.png)
 
 ### Requisitos atendidos
 - RF-01 - O site deve possuir uma página de login com usuário e senha.
@@ -44,8 +44,7 @@ O layout conta com campos para autenticação de usuário e senha.
 
 A página exibe campos para inserção de dados do usuário, além da obrigatoriedade de concordância com os termos de uso da plataforma antes do cadastro.
 
-![Visualização do Cadastro de anunciante (RF-10)](img/wireframe-example.png)
-
+![image](https://user-images.githubusercontent.com/102244252/176074796-845be5a5-12b6-4968-95b4-b19d7cfbb868.png)
 
 ### Requisitos atendidos
 - RF-10 - O site deve exigir leitura e que os usuários estejam de acordo os termos de conduta e uso da plataforma antes de anunciar.
@@ -66,7 +65,7 @@ A página exibe campos para inserção de dados do usuário, além da obrigatori
 
 A presente página contém as informações demandadas para a publicação do anúncio, entre elas o título do anúncio, nome do vendedor, seu telefone, o preço cobrado e uma breve descrição.
 
-![Visualização do Cadastro de anúncios (RF-02)](img/wireframe-example.png)
+![image](https://user-images.githubusercontent.com/102244252/176074939-cf3955e7-24f9-401b-ad96-0c58d47893a5.png)
 
 ### Requisitos atendidos
 - RF- 02 - O site deve apresentar um link para criar e gerenciar os anúncios pós login.
