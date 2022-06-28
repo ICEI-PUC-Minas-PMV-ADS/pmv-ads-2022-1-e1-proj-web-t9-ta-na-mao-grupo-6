@@ -10,15 +10,14 @@ As plataformas utilizadas, os ambientes de trabalho e links de acesso estão lis
 
 Tabela 5 - Relação de ambientes de trabalho
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                        |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------                       |----------------------------------------|
-|Cleyde Fabiana      | Inserir o anúncio dos seus serviços.                      | Divulgar o seu trabalho.             |
-|Cleyde Fabiana      | Pesquisar anúncios de produtos.                           | Compra de itens com finalidade de realizar seus serviços.|
-|Cleyde Fabiana      | Inserir a divulgação de produtos cosméticos.              | Para realizar a revenda de seus produtos.
-|Jhonny Valter       | Procurar anúncios de equipamentos usados de menor preço.  | Adquirir acessórios de segunda mão com o melhor custo-benefício. 
-|João Santana        | Anunciar e alavancar a venda de seus produtos.            | Expandir público alvo e aumentar seu lucro.   
-|João Santana        | Sondar produtos de seus concorrentes.                     | Comparar e ajustar os preços dos seus produtos em relação ao mercado. 
-|João Santana        | Buscar entregadores que residem na região do comércio.    | Para aumentar o alcance de entregas e dar comodidade com entregas à domicílio.
+| AMBIENTE                              | PLATAFORMA                   |LINK DE ACESSO                 |
+|---------------------------------------|------------------------------|-------------------------------|
+|Repositório de Código Fonte            | Github                       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t9-ta-na-mao-grupo-6                              |
+|Documento                              | OneDrive                     |  https://sgapucminasbr-my.sharepoint.com/personal/1413187_sga_pucminas_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1413187%5Fsga%5Fpucminas%5Fbr%2FDocuments%2FT%C3%A1%20na%20m%C3%A3o&ga=1                             |
+|Projeto de Interface e Wireframes      | Canva, Adobe,Illustrator     | https://www.canva.com/pt_br/, https://www.adobe.com/br/products/illustrator.html                              |
+|Gerenciamento de Projeto               | Teams, GitHub                | https://teams.microsoft.com/_#/school/conversations/T09%20-%20Grupo%206?threadId=19:fed0b36a661d4769ab08c75f91497ede@thread.tacv2&ctx=channel, https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/19                              |
+
+Fonte: Criada pelos autores
 
 
 ## 3.2. GESTÃO DE CÓDIGO FONTE
