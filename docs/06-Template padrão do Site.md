@@ -1,5 +1,7 @@
 # 6. TEMPLATE DO SITE
 
+![image](https://user-images.githubusercontent.com/103782980/176077951-fc8b1811-f934-48e0-900a-bbe0538d2db7.png)
+
 O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PMVADS/ta-na-mao-grupo6.github.io e é composto pelos seguintes layouts:
 - Tela Home Page
 - Tela de Login
@@ -100,20 +102,3 @@ privacidade, direito e deveres dos usuários.
 A tela mostrará os anúncios publicados.
 
 ![image](https://user-images.githubusercontent.com/102244252/176074342-271e3440-0ef9-4599-b6b2-84e9182fc7f1.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
