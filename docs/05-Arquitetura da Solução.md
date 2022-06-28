@@ -23,6 +23,6 @@ Diagrama simplificado de comunicação e hospedagem
 
 O local de hospedagem do site do projeto “Tá na Mão” é o GitHub Pages. Tal que é acessado pela URL:
 
-> - [Whimsical](https://whimsical.com/)
+> - [https://tanamao.github.io](https://tanamao.github.io/)
 
 A fonte de publicação padrão para sites de projeto no GitHub Pages é a raiz do branch gh-pages.
