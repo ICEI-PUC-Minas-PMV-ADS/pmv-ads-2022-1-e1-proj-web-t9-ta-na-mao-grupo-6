@@ -24,7 +24,9 @@ Baseado na metodologia Scrum, a equipe de desenvolvimento norteia a criação do
 
 - Scrum Master - Vinícius César
 - Product Owner – Raniel Araújo
+
 - Equipe de Desenvolvimento:
+
         - Anna Freitas
         - Arthur Machado
         - Elder Ferreira
@@ -32,10 +34,12 @@ Baseado na metodologia Scrum, a equipe de desenvolvimento norteia a criação do
         - Raniel Araújo
         - Vinícius César
         - Wilson Eduardo
+
 - Equipe de Design:
-        - Anna Freitas
-        - Felipe Ribeiro
-        - Raniel Araújo
+
+        - Anna Freitas,
+        - Felipe Ribeiro,
+        - Raniel Araújo,
 
 A composição e arranjo das atividades realizadas no desenvolvimento do projeto estão distribuídas além das funções individuais, são realizadas reuniões diárias de status, revisão do projeto pela equipe, e alinhamento de acordo com os critérios de avaliação utilizando a plataforma Teams para organizar reuniões, área de projetos no Github para gerenciar as tarefas e o WhatsApp como principal ferramenta de comunicação fora dos horários agendados.
 A metodologia ágil Scrum está sendo empregada para otimizar o tempo e organizar as tasks (tarefas) de projeto, arquitetura de soluções, design da solução,experiência de usuário e desenvolvimento.
