@@ -91,12 +91,13 @@ Fonte: Criado pelos autores.
 ### 4.2.6. TELA – CADASTRO DO ANÚNCIO
 
 Tela destinada ao cadastro dos anúncios. A página possui a função de inserir informações básicas do item a ser anunciado, assim como uma breve descrição e dados do anunciante. As informações requeridas são: 
-      Foto do item anunciado 
-      Título do anúncio
-      Nome do vendedor
-      Telefone para contato
-      Valor (R$)
-      Descrição do produto ou serviço anunciado
+
+     - Foto do item anunciado 
+     - Título do anúncio
+     - Nome do vendedor
+     - Telefone para contato
+     - Valor (R$)
+     - Descrição do produto ou serviço anunciado
 
 
 Imagem 11 – Tela de cadastro do anúncio.
@@ -123,10 +124,3 @@ Fonte: Criado pelos autores.
 Imagem 14 – Tela dos anúncios do anunciante.
 ![Tela dos anúncios do anunciante](img/wireframe-example.png)
 Fonte: Criado pelos autores.
-
-
-
-
-
-
-
