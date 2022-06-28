@@ -7,7 +7,9 @@ O objetivo principal é que as soluções de softwares funcionem perfeitamente. 
 Para desenvolver o projeto proposto a composição dos componentes e artefatos no sistema são:
 
 Imagem 16 – Diagrama de componentes
-![Diagrama de componentes](img/componentes.png)
+
+![image](https://user-images.githubusercontent.com/102244252/176072660-77e9c5fc-417b-4066-9281-e6c6d729792d.png)
+
 Fonte: Criado pelos autores.
 
 Diagrama simplificado de comunicação e hospedagem
