@@ -26,6 +26,9 @@ Tabela 5 - Relação de ambientes de trabalho
 A gestão de código fonte empregada para a construção da plataforma “Tá na mão”,é o desenvolvimento baseado em troncos, que é uma das várias estratégias de branching (ramificação) frequentemente usadas por equipes que praticam integração contínua e entrega/implantação contínua (CI/CD). Com o desenvolvimento baseado em troncos,você confirma as alterações diretamente no branch master (também conhecido como tronco), em vez de desenvolver recursos ou correções de bugs em branches separados
 e mesclá-los no master em algum estágio posterior.[5]
 
+![image](https://user-images.githubusercontent.com/103782980/176069061-ef2a5e82-deec-4c3d-bc67-84663b304517.png)
+
+
 
 
 ## 3.3. GERENCIAMENTO DO PROJETO
