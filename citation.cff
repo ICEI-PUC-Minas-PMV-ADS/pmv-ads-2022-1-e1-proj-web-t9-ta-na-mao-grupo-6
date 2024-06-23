@@ -1,0 +1,32 @@
+message: Please cite this software using these metadata.
+title: Tá na Mão – Hospedagem de anúncios locais
+authors:
+  - family-names: de Souza Freitas
+    given-names: Anna Karolina
+  - family-names: Ferreira Machado
+    given-names: Arthur Hudson
+  - family-names: Ferreira Ramos
+    given-names: Elder
+  - family-names: Ribeiro Nascente
+    given-names: Felipe Maurício
+  - family-names: de Souza Araújo
+    given-names: Raniel Adriano
+  - family-names: Andrade Gomes
+    given-names: Vinícius César
+  - family-names: Sousa Santos
+    given-names: Wilson Eduardo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Monteiro Ferreira
+    given-names: Daniela Carvalho      
+keywords:
+  - Gestão de vendas
+  - Anúncios diversos
+  - Comércio Local
+  - Marketing digital
+  - Vendas 
+  - Produtos
+
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t9-ta-na-mao-grupo-6 
+version: 1.0.0
+date-released: 2022-06-27
